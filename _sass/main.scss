@@ -1,0 +1,41 @@
+$base-color: #2c7761;
+
+
+body{
+	background:$base-color;
+	font-family: 'Muli', sans-serif;
+}
+
+h1,h2,h3,h4{
+	font-family: 'Miriam Libre', sans-serif;
+}
+
+.site-subtitle {
+	font-family: 'Miriam Libre', sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	margin:auto;
+	margin-bottom:2rem;
+    text-align:center;
+    span{
+    	-webkit-transform: scaleX(1.08);
+    	transform: scaleX(1.08);
+    }
+}
+
+.sidebar-logo{
+	margin:auto;
+	max-width:220px;
+	width:initial;
+	width:100%;
+}
+
+.page-link{
+	font-family: 'Miriam Libre', sans-serif;
+}
+
+a.nav-back{
+	display:block;
+	text-align:center;
+	margin-bottom:2rem;
+}
