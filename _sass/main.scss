@@ -14,8 +14,7 @@ h1,h2,h3,h4{
 	font-family: 'Miriam Libre', sans-serif;
 	font-weight:bold;
 	font-size:14px;
-	margin:auto;
-	margin-bottom:2rem;
+	margin:1rem auto;
     text-align:center;
     span{
     	-webkit-transform: scaleX(1.08);
@@ -25,7 +24,7 @@ h1,h2,h3,h4{
 
 .sidebar-logo{
 	margin:auto;
-	max-width:220px;
+	max-width:180px;
 	width:initial;
 	width:100%;
 }
