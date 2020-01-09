@@ -38,6 +38,7 @@ links:
   repo: https://github.com/jjoseba/
 
 # Build settings
+include: ['.htaccess']
 plugins:
   - jekyll-feed
 
