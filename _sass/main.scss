@@ -1,5 +1,5 @@
 $base-color: #2c7761;
-
+$light-color: #45a88b;
 
 body{
 	background:$base-color;
@@ -10,11 +10,24 @@ h1,h2,h3,h4{
 	font-family: 'Miriam Libre', sans-serif;
 }
 
+
+.page-title{
+	a{
+		font-size:0.8em;
+		color: #333;
+		@media (min-width: 49rem){
+			color: $base-color;
+		}
+	}
+
+}
+
 .site-subtitle {
 	font-family: 'Miriam Libre', sans-serif;
 	font-weight:bold;
 	font-size:14px;
-	margin:1rem auto;
+	margin:auto;
+	margin-bottom:1.2rem;
     text-align:center;
     span{
     	-webkit-transform: scaleX(1.08);
@@ -38,3 +51,23 @@ a.nav-back{
 	text-align:center;
 	margin-bottom:2rem;
 }
+
+main.container.wave{
+
+    background-image: url('/assets/css/tsunami-bg.png');
+    background-size:contain;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+
+    @media (min-width: 49rem){
+    	.content{
+    		background: none;
+  		}	
+    }
+  	
+}
+blockquote{
+	background-color:rgba(255,255,255,0.7);
+}
+
+@import "portfolio";

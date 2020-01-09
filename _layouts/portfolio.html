@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+{{content}}
+
+{% for elem in site.random %}
+
+<div class="work-list">
+<article class="work">
+  <img src="beardocracy/preview.jpg" alt="{{ elem.title }}">
+    <div class="description">
+      <h2>{{ elem.title }}</h2>
+      {{elem.description | markdownify }}
+    </div>
+    <a class="hover" href="{{elem.url}}"></a>
+</article>
+</div>
+
+{% endfor %}

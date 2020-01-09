@@ -27,12 +27,20 @@ twitter_username: jekyllrb
 github_username:  jekyll
 main_color: 2c7761
 
+collections_dir: portfolio
+
+collections:
+  random:
+    label: random
+    output: true
+
 links:
   repo: https://github.com/jjoseba/
 
 # Build settings
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

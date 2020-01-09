@@ -7,7 +7,7 @@
 
     {% include sidebar.html %}
 
-    <main class="container">
+    <main class="container {% if page.show_wave %} wave{% endif %}">
       {{ content }}
     </main>
 
