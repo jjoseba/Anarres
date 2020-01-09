@@ -4,17 +4,20 @@ layout: page
 
 {{content}}
 
+<div class="work-list">
 {% for elem in site.random %}
 
-<div class="work-list">
+
 <article class="work">
-  <img src="beardocracy/preview.jpg" alt="{{ elem.title }}">
+  <img src="/{{ elem.path | remove_first:'_'| remove_first:'index.md' }}preview.jpg" alt="{{ elem.title }}">
     <div class="description">
       <h2>{{ elem.title }}</h2>
+
       {{elem.description | markdownify }}
     </div>
     <a class="hover" href="{{elem.url}}"></a>
 </article>
-</div>
+
 
 {% endfor %}
+</div>

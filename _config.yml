@@ -41,6 +41,7 @@ links:
 include: ['.htaccess']
 plugins:
   - jekyll-feed
+  - jekyll-postfiles
 
 
 # Exclude from processing.

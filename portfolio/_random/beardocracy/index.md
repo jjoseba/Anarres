@@ -1,6 +1,7 @@
 ---
 layout: work
 title: Beardocracy
+permalink: /portfolio/beardocracy/
 description: |
     web poll I did letting my relatives decide how to shave my 8 months old beard. “El Velázquez” won.
     
@@ -9,5 +10,6 @@ description: |
 
 Agagagaga gdsagasdsg
 
+![Cloudflare architecture](preview.png)
 
 [jekyll-organization]: https://github.com/jekyll

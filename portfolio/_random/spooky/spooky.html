@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spooky.</title>
+  <link href="https://fonts.googleapis.com/css?family=Convergence|Freckle+Face|Roboto:200,300,400,900" rel="stylesheet">
+<style>
+body{
+  margin:0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  max-width:100%;
+  text-align: justify;
+  background-color: #fefefe;
+  font-size:14px;
+}
+article{
+  max-width: 1024px;
+  padding: 1.5em;
+  font-size: 17px;
+  font-family: 'Convergence', sans-serif;
+  margin: auto;
+  word-break: break-all;
+}
+header{
+  padding: 1.5em;
+  background-color: #444;
+  text-align: center;
+  color: #fff;
+}
+a{
+  color:#f3f3f3;
+  cursor:pointer;
+  font-weight: 400;
+  border-bottom: 1px dotted #fff;
+  text-decoration: none;
+  transition:700ms all;
+}
+a:hover{
+  text-shadow:0 0 10px #000;
+}
+header h1, header h2, header h3{
+  margin: 0;
+  text-transform: uppercase;
+}
+header h1{
+  color:#d53b26;
+  font-size: 6.2em;
+  font-weight: 900;
+  font-family: 'Freckle Face', cursive;
+}
+header h2{ font-size: 3em; }
+header h3{
+  margin-top: -0.3em;
+  font-size: 1.4em;
+  line-height: 0.9;
+  font-weight: 300;
+  background-color: #d53b26;
+}
+header h3 span{
+  background-color: #444;
+  padding: 0.5em;
+  font-weight: 400;
+  text-align: center;
+}
+header aside{
+  font-size:12px;
+  font-weight: 200;
+  margin-top: 1em;
+}
+.dialog{
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  padding: 10px;
+  background-color: #666;
+  box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+  text-transform: uppercase;
+  color: #fff;
+}
+@media print{    
+  .dialog, .dialog *{
+    display: none !important;
+  }
+  header, header a{
+    color:#111;
+  }
+}
+</style>
+
+</head>
+<body>
+<header>
+  <h1>Spooky</h1>
+  <h3><span>a book by</span></h3>
+  <h2>Neil Gaiman</h2>
+  <aside>
+  inspired by a <a href="http://neil-gaiman.tumblr.com/post/149085136936/clickholeofficial-find-out-what-carrie-preston" target="_blank">comment</a> by <a href="https://twitter.com/neilhimself" target="_blank">@neilhimself</a> on "his dream writing project". <br/> Here you can see what it would look like, Neil! :)
+  </aside>
+</header>
+<article>
+</article>
+<div class="dialog">
+  <span class="loading">generating content... (<span>0</span>%)</span>
+  <a style="display:none;" class="print" onclick="window.print()">print...</a>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+    var INTERVAL_SPOOKS = 100;
+    var MAX_SPOOKS = 1666;
+
+    var bookContents = $('article');
+    var spookiesCounter = $('.dialog span span');
+    var spookies = 1;
+    var oos = '';
+    //To avoid blocking the browser, we generate the spookyes in intervals
+    var spooker = setInterval(function(){
+      for (var count = 0; count <= INTERVAL_SPOOKS && spookies <= MAX_SPOOKS; count++){
+        var spooky = "Spo" + oos + "oky. ";
+        oos += 'o';
+        bookContents.append(spooky);
+        spookies ++;
+      }
+      
+      var percent = Math.floor(spookies * 100 / MAX_SPOOKS);
+      spookiesCounter.text(percent);  
+      if (spookies >= MAX_SPOOKS){
+        clearInterval(spooker);
+        $('.dialog').find('span').hide().end().find('a').show();
+      }
+    }, 300);
+</script>
+</body>
+</html>
