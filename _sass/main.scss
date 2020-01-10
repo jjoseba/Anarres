@@ -10,7 +10,7 @@ h1,h2,h3,h4{
 	font-family: 'Miriam Libre', sans-serif;
 }
 
-
+.clear{ clear:both; }
 .page-title{
 	a{
 		font-size:0.8em;
@@ -19,7 +19,6 @@ h1,h2,h3,h4{
 			color: $base-color;
 		}
 	}
-
 }
 
 .site-subtitle {
@@ -41,7 +40,9 @@ h1,h2,h3,h4{
 	width:initial;
 	width:100%;
 }
-
+.text-primary{
+	color:$base-color;
+}
 .page-link{
 	font-family: 'Miriam Libre', sans-serif;
 }
@@ -69,5 +70,7 @@ main.container.wave{
 blockquote{
 	background-color:rgba(255,255,255,0.7);
 }
+
+.mb-0{ margin-bottom:0 !important; }
 
 @import "portfolio";

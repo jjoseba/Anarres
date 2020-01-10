@@ -33,6 +33,9 @@ collections:
   random:
     label: random
     output: true
+  project:
+    label: project
+    output: true
 
 links:
   repo: https://github.com/jjoseba/

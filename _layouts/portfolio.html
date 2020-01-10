@@ -4,20 +4,12 @@ layout: page
 
 {{content}}
 
-<div class="work-list">
-{% for elem in site.random %}
+<h2 class="text-primary mb-0">proyectos</h3>
+<small>proyectos personales y trabajos para terceros en los que he participado.</small>
+{% include portfolio_work.html category=site.project %}
 
+<hr class="clear">
 
-<article class="work">
-  <img src="/{{ elem.path | remove_first:'_'| remove_first:'index.md' }}preview.jpg" alt="{{ elem.title }}">
-    <div class="description">
-      <h2>{{ elem.title }}</h2>
-
-      {{elem.description | markdownify }}
-    </div>
-    <a class="hover" href="{{elem.url}}"></a>
-</article>
-
-
-{% endfor %}
-</div>
+<h2 class="text-primary mb-0">random</h3>
+<small>cosas más pequeñas, no necesariamente tecnológicas y experimentos hechos por diversión.</small>
+{% include portfolio_work.html category=site.random %}

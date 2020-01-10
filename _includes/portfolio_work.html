@@ -1,0 +1,13 @@
+<div class="work-list">
+	{% for work in include.category %}
+	<article class="work">
+	  <img src="/{{ work.path | remove_first:'_'| remove_first:'index.md' }}preview.jpg" alt="{{ work.title }}">
+	    <div class="description">
+	      <h2>{{ work.title }}</h2>
+
+	      {{work.description | markdownify }}
+	    </div>
+	    <a class="hover" href="{{work.url}}"></a>
+	</article>
+	{% endfor %}
+</div>
