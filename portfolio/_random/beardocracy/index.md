@@ -3,9 +3,7 @@ layout: work
 title: Beardocracy
 permalink: /portfolio/beardocracy/
 description: |
-    web poll I did letting my relatives decide how to shave my 8 months old beard. “El Velázquez” won.
-    
-    It's simply a Google form with a nice design on top
+    encuesta web para dejar a mis amigos elegir cómo me afeitaba la barba de 8 meses. Ganó “El Velázquez” :)
 ---
 
 Agagagaga gdsagasdsg

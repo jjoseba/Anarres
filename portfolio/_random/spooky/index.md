@@ -1,11 +1,9 @@
 ---
 layout: work
 title: Spooky
-permalink: /portfolio/beardocracy/
+permalink: /portfolio/spooky/
 description: |
-    small book/nonsense generator experiment inspired by @neil-gaiman​ story on “his dream writing project".
-    
-    Option to export/print as PDF!
+    experimento/tontuna de generador de un libro inspirado por un comentario de Neil Gaiman sobre su proyecto soñado como escritor.
 ---
 
 Agagagaga gdsagasdsg
