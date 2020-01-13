@@ -8,6 +8,6 @@ description: |
 
 Agagagaga gdsagasdsg
 
-![Cloudflare architecture](preview.png)
+![Peer 2 Peer License](/assets/img/peer2peer-license.jpg)
 
 [jekyll-organization]: https://github.com/jekyll

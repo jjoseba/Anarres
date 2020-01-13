@@ -1,9 +1,9 @@
 ---
 layout: work
-title: Super HeCSSagon
+title: My little TD
 permalink: /portfolio/superhecssagon/
 description: |
-    pequeña demostración clonando el juego **Super Hexagon** de Terry Cavanagh realizada usando únicamente CSS3. Bueno, y un poco de javascript.
+    Tower defense para móviles con mecánicas intensas, unos gráficos coloridos y dibujados a mano y un diseño de niveles hecho con mucho cariño.
 
 ---
 

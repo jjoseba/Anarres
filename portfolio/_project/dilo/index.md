@@ -1,6 +1,7 @@
 ---
 layout: work
 title: DILO
+order: 3
 permalink: /portfolio/dilo/
 description: |
     app de Android, sistema aumentativo de comunicación basado en imágenes para niños con dificultades en el lenguaje (trastornos generalizados del desarrollo y del espectro del autismo)
