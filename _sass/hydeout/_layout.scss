@@ -112,21 +112,15 @@ body {
     font-size: 3.25rem;
   }
 
-  // Show secondary nav content + lead
-  header ~ *, p.lead {
-    display: block;
-  }
-
-  header {
-    ~ nav {
-      display: flex;
-    }
-  }
-
   // Slightly more bottom padding to compensate for heading not match 100% of
   // line-height on top
   > *:last-child {
     margin-bottom: 0.5rem;
+  }
+
+  #sidebar-nav-links{
+    display: flex;
+    display: block;
   }
 }
 

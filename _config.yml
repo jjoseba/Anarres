@@ -35,6 +35,14 @@ collections:
     output: true
   project:
     label: project
+    sort_by: order
+    output: true
+  game:    
+    label: game
+    output: true
+  art:    
+    label: art
+    sort_by: order
     output: true
 
 links:

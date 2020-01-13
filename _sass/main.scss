@@ -53,18 +53,27 @@ a.nav-back{
 	margin-bottom:2rem;
 }
 
+@media (max-width: 49rem){
+	.container > header{
+		margin: -1.5rem 0 0;
+	    padding: 0 2rem 2rem;
+	    background-color:$base-color;
+	}	
+}
+
+
 main.container.wave{
 
     background-image: url('/assets/css/tsunami-bg.png');
+    background-attachment: fixed;
+    background-color:#fff;
     background-size:contain;
     background-position: bottom left;
     background-repeat: no-repeat;
 
-    @media (min-width: 49rem){
-    	.content{
-    		background: none;
-  		}	
-    }
+	.content{
+		background: none;
+	}	
   	
 }
 blockquote{
