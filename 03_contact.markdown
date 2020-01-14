@@ -12,7 +12,7 @@ show_wave: true
 
 <form action="https://getsimpleform.com/messages?form_api_token=615f2d6dcb943d333e3cf30acb8a77eb" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type="hidden" name="redirect_to" value="{{site.url}}/contact_success/" />
+  <input type="hidden" name="redirect_to" value="http://anarres.ovh/contact_success/" />
   <!-- all your input fields here.... -->
   <label for="nombre">_nombre <i class="fas fa-user-astronaut"></i></label>
   <input type="text" name="nombre" />
