@@ -1,5 +1,6 @@
 $base-color: #2c7761;
 $light-color: #45a88b;
+$semiwhite: rgba(255,255,255,0.6);
 
 body{
 	background:$base-color;
@@ -14,6 +15,7 @@ h1,h2,h3,h4{
 .page-title{
 	a{
 		font-size:0.8em;
+		background:none;
 		color: #333;
 		@media (min-width: 49rem){
 			color: $base-color;
@@ -61,15 +63,18 @@ a.nav-back{
 	}	
 }
 
-
 main.container.wave{
 
     background-image: url('/assets/css/tsunami-bg.png');
     background-attachment: fixed;
     background-color:#fff;
     background-size:contain;
-    background-position: bottom left;
+    background-position: bottom left; 
     background-repeat: no-repeat;
+
+    @media (min-width: 49rem){
+    	& { background-position: 18rem 100%; }
+    }
 
 	.content{
 		background: none;
@@ -77,9 +82,70 @@ main.container.wave{
   	
 }
 blockquote{
-	background-color:rgba(255,255,255,0.7);
+	background-color:$semiwhite;
+	position:relative;
+    padding-left: 2rem;
+    
+
+	@media (min-width: 30em){
+		padding-right: 4rem;
+
+	}
+
+	h1{
+		margin:0;
+		font-size:9rem;
+		margin-bottom:-6rem;
+		margin-top:-4rem;
+		margin-left:-3.5rem;
+		font-family: 'Muli', sans-serif;
+		font-weight:bold;
+	}
 }
 
 .mb-0{ margin-bottom:0 !important; }
 
 @import "portfolio";
+
+input[type="text"], input[type="email"], input[type="search"], textarea{
+	padding:1em;		
+	border-radius:1px;
+	margin-bottom:0.8em;
+	outline:none;
+	border:none;
+	background-color:$semiwhite;
+	border-top: 2px solid $base-color;
+	border-left: 2px solid $base-color;
+	display:block;
+	width:100%;
+	@media (min-width: 70rem){
+		width:50%;
+
+	}
+}
+textarea{ width:100%; }
+label{
+	font-size:0.9em;
+	display:block;
+	font-weight:bold;
+	font-family: 'Miriam Libre', sans-serif;
+	margin-bottom:-3px;
+}
+
+input[type="submit"]{
+	background: $base-color;
+	color:#fff;
+	border-radius:2px;
+	border:0;
+	font-size:16px;
+	outline:none;
+	display:inline-block;
+	font-family: 'Miriam Libre', sans-serif;
+	-webkit-transform: scaleX(1.08);
+	transform: scaleX(1.08);
+	margin-left:5px;
+
+	&:hover{
+		background: $light-color;
+	}
+}

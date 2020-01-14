@@ -35,11 +35,23 @@ main, article, section { display: block; }
 a {
   color: $link-color;
   text-decoration: none;
+  position:relative;
+  background:
+     linear-gradient(
+       to bottom, $link-color 0%,
+       $link-color 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    transition: all .25s;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
     text-decoration: underline;
+    background-size: 4px 50px;
+    color:#fff;
   }
 
   strong {
