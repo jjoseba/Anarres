@@ -8,6 +8,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.0.0"
+gem 'ruby-vips'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -16,6 +17,7 @@ gem "jekyll", "~> 4.0.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-postfiles'
+  gem 'jekyll-thumb'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

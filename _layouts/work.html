@@ -7,8 +7,19 @@ layout: default
 </header>
 
 <div class="content">
+	<div class="description small">
 	{{page.description | markdownify }}
+  	</div>
+  	<div class="tags">
+  		<i class="fas fa-tags"></i>
+  		{% for tag in page.tags %}
+  			<a href="/tags/{{ tag | slugify }}">{{ tag }}</a>
+  		{% endfor %}
+  	</div>
   {{ content }}
+
 </div>
 
-
+{% if page.gallery_folder %}
+  {% include image-gallery.html gallery_folder=page.gallery_folder title=page.title %}
+{% endif %}

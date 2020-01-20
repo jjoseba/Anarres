@@ -149,3 +149,60 @@ input[type="submit"]{
 		background: $light-color;
 	}
 }
+
+.tags{
+	margin-top:-0.8rem;
+	margin-bottom:1rem;
+	a{
+		display:inline-block;
+		background-color: $light-color;
+		border-radius:2px;
+		padding:3px 12px;
+		padding-left:15px;
+		font-size:0.75rem;
+		border-top-left-radius:7px;
+		border-bottom-left-radius:7px;
+		color:#fff;
+		
+	}
+}
+
+.gallery-container{
+	background-color:#f6f6f6;
+	background-image:url('circuit-bg.png');
+	background-repeat:repeat-y;
+	background-position:center right;
+	max-width:100%;
+	@media (min-width: 49rem){
+		margin: auto -4rem;
+	}
+	margin-top:-2rem !important;
+
+	h3{
+		margin:0;
+		background-color:$base-color;
+		color:#fff;
+		padding:1rem 2rem;
+
+	}
+	.image-gallery{
+		padding:2rem;
+		padding-right:3rem;
+	}
+}
+
+.masonry{
+	.tile{
+		width:30%;
+		padding:1%;
+
+		@media (max-width: 49rem){
+			width:46%;
+			padding:1%;
+		}
+
+	}
+
+
+
+}
