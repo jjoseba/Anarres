@@ -2,7 +2,7 @@
 layout: work
 title: ARCA
 order: 3
-permalink: /portfolio/secrethitler/
+permalink: /portfolio/arca/
 description: |
     Asociación Recreativa y Cultural Alcalaína, un barquito que trata de abrirse paso en el diluvio.
 ---

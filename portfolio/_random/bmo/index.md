@@ -2,6 +2,7 @@
 layout: work
 title: B-MO Gaming Station
 permalink: /portfolio/bmo/
+tags: [juego]
 description: |
     una multi-consola basada en RaspberryPi con emuladores antiguos y la carcasa más cuqui del mundo
 ---

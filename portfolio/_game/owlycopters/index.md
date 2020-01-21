@@ -2,6 +2,7 @@
 layout: work
 title: Owly Copters
 permalink: /portfolio/spooky/
+tags: [iOS, android, juego, diseño]
 description: |
     Guía a un pequeño búho hasta la rama más alta (cuidado: altamente adictivo!). Con logros y ránkings integrados en Google Play y Game center.
 ---

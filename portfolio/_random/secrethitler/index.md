@@ -2,6 +2,7 @@
 layout: work
 title: Secret Hitler
 permalink: /portfolio/secrethitler/
+tags: [software libre, juego, diseño]
 description: |
     traducción al castellano del juego de mesa **Secret Hitler**, tanto el arte de todas las cartas como el libreto de reglas. Publicado con licencia Creative Commons.
 ---

@@ -2,7 +2,7 @@
 layout: work
 title: Somos Alcalá
 order: 5
-permalink: /portfolio/spooky/
+permalink: /portfolio/somos/
 description: |
     agrupación municipalista, participé en 2015 haciendo el material gráfico de campaña, página web, etc... la gente entró en la institución! 
 ---

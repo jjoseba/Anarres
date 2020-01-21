@@ -3,8 +3,11 @@ layout: work
 title: OppiaMobile
 order: 1
 permalink: portfolio/oppiamobile/
-tags: [software libre, android, django, elearning, diseño, web]
+tags: [software libre, android, django, python, elearning, diseño, web]
 gallery_folder: /portfolio/oppiamobile/
+custom_color: 75b143
+external_link: https://oppia-mobile.org/
+external_text: Página oficial
 description: |
     plataforma de aprendizaje para móviles, especialmente dirigida para entornos con pocos recursos y mala conectividad. Además del desarrollo, participo en la gobernanza del proyecto de software libre. 
 ---
@@ -19,3 +22,4 @@ Algunas características:
 * Compartir contenidos por Bluetooth con otros dispositivos 
 * Notificaciones automáticas cuando hay actualizaciones para la descarga de cursos
 * Text-to-Speech para la lectura de actividades
+
