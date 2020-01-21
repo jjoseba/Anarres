@@ -104,6 +104,7 @@ blockquote{
 }
 
 .mb-0{ margin-bottom:0 !important; }
+.mr-2{ margin-right: 0.5rem; }
 
 @import "portfolio";
 
@@ -132,7 +133,8 @@ label{
 	margin-bottom:-3px;
 }
 
-input[type="submit"]{
+input[type="submit"], .btn{
+    padding: 1em 1.5em;
 	background: $base-color;
 	color:#fff;
 	border-radius:2px;
@@ -144,9 +146,11 @@ input[type="submit"]{
 	-webkit-transform: scaleX(1.08);
 	transform: scaleX(1.08);
 	margin-left:5px;
+	cursor:pointer;
 
 	&:hover{
-		background: $light-color;
+		text-decoration:none;
+		opacity:0.8;
 	}
 }
 

@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for collection in site.collections %}
+	{% for page in collection.docs %}
+		{% assign ttags = page.tags | join:'|' | append:'|' %}
+		{% assign rawtags = rawtags | append:ttags %}
+	{% endfor %}	
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+	{% if tag != "" %}
+		{% if tags == "" %}
+			{% assign tags = tag | split:'|' %}
+		{% endif %}
+		{% unless tags contains tag %}
+			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+
+<header>
+  <h1 class="page-title"><a href="/portfolio">\portfolio</a>\>_ etiquetas</h1>
+</header>
+<div class="content">
+  {{ content }}
+<hr>
+<div class="tags">
+  		
+	{% for tag in tags %}
+		{% assign count = 0 %}
+		{% for collection in site.collections %}
+			{% for page in collection.docs %}
+			 {% if page.tags contains tag %}
+			 	{% assign count = count | plus:1 %}
+			 {% endif %}
+			 {% endfor %}
+		 {% endfor %}
+
+		<a href="#{{ tag | slugify }}"> {{ tag }} ({{count}}) </a>
+	{% endfor %}
+</div>
+
+{% for tag in tags %}
+	
+{% endfor %}
+
+{% for tag in tags %}
+	<h3 id="{{ tag | slugify }}"><i class="fas fa-tag"></i> _{{ tag }}</h2>
+	<ul>
+	 {% for collection in site.collections %}
+		{% for page in collection.docs %}
+		 {% if page.tags contains tag %}
+		 <li>
+		 <a href="{{ page.url }}">
+		  {{ page.title }}
+
+		 </a><br>
+		 <small>{{page.description | slice: 0, 90 }}...</small>
+		 </li>
+		 {% endif %}
+		 {% endfor %}
+	 {% endfor %}
+	</ul>
+{% endfor %}
+
+</div>

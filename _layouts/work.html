@@ -13,10 +13,18 @@ layout: default
   	<div class="tags">
   		<i class="fas fa-tags"></i>
   		{% for tag in page.tags %}
-  			<a href="/tags/{{ tag | slugify }}">{{ tag }}</a>
+  			<a href="/portfolio/tags/#{{ tag | slugify }}">{{ tag }}</a>
   		{% endfor %}
   	</div>
+  	<hr>
   {{ content }}
+
+  {% if page.external_link %}
+  		<a class="btn" {% if page.custom_color %} style="background-color:#{{page.custom_color}};" {% endif %} target="_blank">
+  			 <i class="mr-2 {% if page.external_icon %}{{ page.external_icon }}{% else %}fas fa-external-link-alt{% endif %}"></i>
+  			{{ page.external_text }}
+  		</a>
+  {% endif %}
 
 </div>
 
