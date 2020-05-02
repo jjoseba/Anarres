@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contacta
+title: hablemos
 sidebar_link: true
 permalink: /contact/
 sidebar_sort_order: 3

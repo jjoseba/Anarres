@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acerca de
+title: readme
 sidebar_link: true
 permalink: /about/
 sidebar_sort_order: 2
