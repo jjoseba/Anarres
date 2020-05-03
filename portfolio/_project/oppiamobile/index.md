@@ -1,7 +1,7 @@
 ---
 layout: work
 title: OppiaMobile
-order: 1
+order: 0
 permalink: portfolio/oppiamobile/
 tags: [software libre, android, django, python, elearning, diseño, web]
 gallery_folder: /portfolio/oppiamobile/
