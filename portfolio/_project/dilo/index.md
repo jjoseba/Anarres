@@ -6,6 +6,13 @@ permalink: /portfolio/dilo/
 tags: [software libre, android]
 description: |
     app de Android, sistema aumentativo de comunicación basado en imágenes para niños con dificultades en el lenguaje (trastornos generalizados del desarrollo y del espectro del autismo)
+external_link: https://oppia-mobile.org/
+external_text: Página del proyecto
+custom_color: 44b867
+secondary_link: https://play.google.com/store/apps/details?id=com.abaloo.dilo2&hl=es_419
+secondary_text: App en Google Play
+secondary_icon: fab fa-google-play
+secondary_color: 333333
 ---
 
 DILO es una herramienta diseñada especialmente para personas con dificultades en el área de la comunicación oral o escrita, siendo un instrumento y sistema de comunicación alternativo y/o aumentativo de comunicación.
