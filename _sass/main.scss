@@ -105,6 +105,10 @@ blockquote{
 
 .mb-0{ margin-bottom:0 !important; }
 .mr-2{ margin-right: 0.5rem; }
+.mtop{ margin-top:1.5em !important; }
+.mleft{ margin-left:1.5em !important; }
+.mbottom{ margin-bottom:1.5em !important; }
+.mright{ margin-right:1.5em !important; }
 
 @import "portfolio";
 
@@ -206,7 +210,5 @@ input[type="submit"], .btn{
 		}
 
 	}
-
-
 
 }

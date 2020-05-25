@@ -15,7 +15,7 @@
         {% assign filename = filenameparts | last | replace: file.extname,"" %}
         <div class="tile">
           <a class="thumb" href="{{ file.path }}" title="{{ include.title }}">
-            {% thumb src=file.path width="250" link=false %}
+            {% thumb src=file.path width="450" link=false %}
           </a>
         </div>
       {% endif %}

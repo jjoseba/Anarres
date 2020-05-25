@@ -20,10 +20,17 @@ layout: default
   {{ content }}
 
   {% if page.external_link %}
-  		<a class="btn" {% if page.custom_color %} style="background-color:#{{page.custom_color}};" {% endif %} target="_blank">
+  		<a class="btn mtop mright" href="{{page.external_link}}" {% if page.custom_color %} style="background-color:#{{page.custom_color}};" {% endif %} target="_blank">
   			 <i class="mr-2 {% if page.external_icon %}{{ page.external_icon }}{% else %}fas fa-external-link-alt{% endif %}"></i>
   			{{ page.external_text }}
   		</a>
+  {% endif %}
+
+  {% if page.secondary_link %}
+      <a class="btn mtop" href="{{page.secondary_link}}" {% if page.secondary_color %} style="background-color:#{{page.secondary_color}};" {% endif %} target="_blank">
+         <i class="mr-2 {% if page.secondary_icon %}{{ page.secondary_icon }}{% else %}fas fa-external-link-alt{% endif %}"></i>
+        {{ page.secondary_text }}
+      </a>
   {% endif %}
 
 </div>
