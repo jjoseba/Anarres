@@ -18,12 +18,14 @@ Detrás de este nombre tan molón estoy yo, Joseba. Desarrollador web y Android 
 
 Como en Anarres el planeta, creo en la cooperación y el trabajo colaborativo. Apoyo el [software libre](https://www.gnu.org/philosophy/free-sw.es.html#content) y el conocimiento libre, e intento que toda la tecnología que utilice para desarrollar mi trabajo sea software con licencias libres, así como publicar los trabajos finales bajo licencias del mismo tipo.
 
-Creo en construir **un mundo donde quepan muchos mundos**, y que es necesario hacerlo desde todos los ámbitos. Apoyo la [Economía Social y Solidaria](https://www.economiasolidaria.org/) y estoy en el **Mercado Social de Madrid**. Si tú también eres socia (proveedora o consumidora), ofrezco distintos descuentos y bonificaciones en **etics** :)
-
-
 > Lo que hace diferente nuestra época es la perspectiva de la posibilidad de un nuevo mundo imaginado hace mucho tiempo: un mundo libre de la necesidad. La pro­ducción de abstracción ha llegado a un umbral en el que podría romper los grilletes, de una vez por todas, que atan el hackeo a unos intereses de clase desfasados y retrógra­dos. 
 >
 > \>_ **McKenzie Wark** - Un manifiesto Hacker
+
+
+Creo en construir **un mundo donde quepan muchos mundos**, y que es necesario hacerlo desde todos los ámbitos. Apoyo la [Economía Social y Solidaria](https://www.economiasolidaria.org/) y estoy en el **Mercado Social de Madrid**. Si tú también eres socia (proveedora o consumidora), ofrezco distintos descuentos y bonificaciones en **etics** :)
+
+Suelo trabajar en **[La Ínsula Coworking](https://insulacoworking.es/)**, un coworking (¡el mejor!) en el centro de Alcalá de Henares con un enfoque social y gestionado y dinamizado por una asociación sin ánimo de lucro de la que formo parte. 
 
 
 ### \>_ Créditos

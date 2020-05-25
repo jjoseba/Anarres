@@ -3,7 +3,22 @@ layout: work
 title: FQ-Up
 order: 4
 permalink: /portfolio/fqup/
+gallery_folder: /portfolio/fqup/
 tags: [iOS, android, xamarin, backend, asp.NET, diseño, gamificacion]
+
+external_link: https://apps.apple.com/es/app/fq-up-federacion-espanola/id1110876701
+external_text: en App Store
+secondary_icon: fab fa-apple
+custom_color: 26c8a3
+
+secondary_link: https://play.google.com/store/apps/details?id=com.inyeccion.fqup&hl=es
+secondary_text: en Google Play
+secondary_icon: fab fa-google-play
+secondary_color: 333333
+
+
+
+
 description: |
     app desarrollada para la Federación de Fibrosis Quística, con la finalidad de ayudar a las personas con FQ a mantener o mejorar la adherencia a los tratamientos, especialmente a partir de los 14 años.
 ---

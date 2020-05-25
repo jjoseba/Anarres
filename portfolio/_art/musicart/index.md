@@ -15,7 +15,3 @@ Como gran amante de la música, siempre me ha fascinado el mundo que rodea los p
 
 Aquí una pequeña muestra.
 
-
-![Cloudflare architecture](preview.png)
-
-[jekyll-organization]: https://github.com/jekyll

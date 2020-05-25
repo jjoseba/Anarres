@@ -5,9 +5,16 @@ order: 0
 permalink: portfolio/oppiamobile/
 tags: [software libre, android, django, python, elearning, diseño, web]
 gallery_folder: /portfolio/oppiamobile/
+
 custom_color: 75b143
 external_link: https://oppia-mobile.org/
 external_text: Página oficial
+
+secondary_color: 555
+secondary_link: https://github.com/DigitalCampus/
+secondary_text: Ver repositorios en GitHub
+secondary_icon: fab fa-github
+
 description: |
     plataforma de aprendizaje para móviles, especialmente dirigida para entornos con pocos recursos y mala conectividad. Además del desarrollo, participo en la gobernanza del proyecto de software libre. 
 ---
