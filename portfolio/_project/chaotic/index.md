@@ -9,6 +9,4 @@ description: |
 
 Agagagaga gdsagasdsg
 
-![Cloudflare architecture](preview.png)
-
-[jekyll-organization]: https://github.com/jekyll
+Los juegos que pueden verse en la sección del portfolio los creamos en esta época, así como alguno de los otros proyectos.

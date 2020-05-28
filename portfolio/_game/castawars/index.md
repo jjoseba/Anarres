@@ -18,9 +18,9 @@ Con más de 100.000 descargas entre Android y iPhone, Casta Wars se desarrolló 
 * Tienda virtual para desbloquear mejoras para la partida (rewarded ads)
 * Integración con Game Center y Google Play Games para logros y rankings
 
-Además del desarrollo del juego, se compró el dominio [castawars.com](http://castawars.com/) y se creó una landing page con diseño responsivo, así como perfiles en Twitter y Facebook para aumentar el alcance. A día de hoy, se han publicado más de 1.200 tweets a través de la app con las puntuaciones obtenidas por los jugadores.
+Además del desarrollo del juego, se compró el dominio **castawars.com** y se creó una landing page con diseño responsivo, así como perfiles en Twitter y Facebook para aumentar el alcance. A día de hoy, se han publicado más de 1.200 tweets a través de la app con las puntuaciones obtenidas por los jugadores.
 
-### Respuestas y acogida
+#### Respuestas y acogida
 
 
 ![Acogida de Casta Wars en los medios]({{site.baseurl}}/assets/img/static/castawars-papers.jpg "Acogida de Casta Wars en los medios"){: .mtop .mbottom}
