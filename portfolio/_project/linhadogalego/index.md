@@ -15,7 +15,7 @@ description: |
 
 Fue desarrollada mediante el framework Xamarin, con lo que mediante un único desarrollo se obtuvieron versiones para Android e iOS de la app. Además, se desarrolló también un portal web desde el que gestionar las consultas, así como la posibilidad de poder compartirlas en redes sociales.
 
-![Acogida de Casta Wars en los medios]({{site.baseurl}}/assets/img/static/linha-admin.png "Linha do Galego"){: .mtop .mbottom}
+![Linha do Galego: Admin]({{site.baseurl}}/assets/img/static/linha-admin.png "Linha do Galego"){: .mtop .mbottom}
 
 A Liña do Galego es un servicio de la Mesa pola Normalización Lingüística que atiende temas relacionados con los derechos de la comunidad lingüística gallega. A través de la app cualquier usuario registrado puede subir una nueva aportación (queja o felicitación) a la plataforma, para que aparezca posteriormente a la vista de la comunidad de la app.
 
