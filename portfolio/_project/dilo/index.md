@@ -6,7 +6,7 @@ permalink: /portfolio/dilo/
 tags: [software libre, android]
 description: |
     app de Android, sistema aumentativo de comunicación basado en imágenes para niños con dificultades en el lenguaje (trastornos generalizados del desarrollo y del espectro del autismo)
-external_link: https://oppia-mobile.org/
+external_link: https://jjoseba.github.io/DiloApp/
 external_text: Página del proyecto
 custom_color: 44b867
 secondary_link: https://play.google.com/store/apps/details?id=com.abaloo.dilo2&hl=es_419
