@@ -2,11 +2,12 @@
   <header>
     <img src="/assets/img/logo-square.png" class="sidebar-logo" alt="{{ site.title }}">
     <p class="site-subtitle"><span>{{ site.description }}<span></p>
-      {% unless page.url == "/" %}
-      <a class="nav-back" href="{{ "/" | relative_url }}">
-          <i class="fas fa-arrow-left fa-2x"></i>
-      </a>
-      {% endunless %}
+      
+    {% unless page.url == "/" %}
+    <a class="nav-back" href="{{ "{{layout.parent_page}}" | relative_url }}">
+        <i class="fas fa-arrow-left fa-2x"></i>
+    </a>
+    {% endunless %}
 
   </header>
   {% if page.layout == "index" %}
