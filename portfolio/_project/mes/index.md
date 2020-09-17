@@ -14,7 +14,7 @@ En colaboración con [Triskel apps](https://triskelapps.com/) desarrollamos una 
 
 ![Acogida de Casta Wars en los medios]({{site.baseurl}}/assets/img/static/etics.png "Bonificaciones etics"){: .mtop .mbottom}
 
-Los **etics** son el sistema de bonificaciones del Mercado Social. Se consiguen consumiendo dentro del Mercado Social y se pueden gastar en cualquier entidad dentro del Mercado en tu siguiente compra. La aplicación 
+Los **etics** son el sistema de bonificaciones del Mercado Social. Se consiguen consumiendo dentro del Mercado Social y se pueden gastar en cualquier entidad dentro del Mercado en tu siguiente compra. La aplicación del Mercado Social permite gestionar el monedero de **etics**, consultar las entidades y realizar compras y pagos con tu monedero.
 
 Durante el desarrollo de la aplicación identificamos varios problemas con cómo acceder a la información que necesitábamos de las socias, y en cómo se compartía la información y los procesos entre comisiones, así que en paralelo, desarrollamos una aplicación web para gestionar los procesos internos del Mercado Social (acogida y alta de socias, gestión de cuotas y presupuestos, proceso de balance social anual), así como para que sirviera de lugar centralizado y unificado en el que las distintas comisiones accedan y registren los datos de las socias de la cooperativa y sus tareas.
 
