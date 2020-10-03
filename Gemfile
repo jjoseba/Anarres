@@ -17,6 +17,7 @@ gem 'ruby-vips'
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-postfiles'
+  gem 'jekyll-paginate'
   gem 'jekyll-thumb'
 end
 

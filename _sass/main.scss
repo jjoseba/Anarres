@@ -63,6 +63,20 @@ a.nav-back{
 	}	
 }
 
+.blog{
+	font-size:0.85em;
+
+	.date{
+		font-size:1rem;
+		font-weight:bold;
+		font-family: 'Miriam Libre', sans-serif;
+		background-color:$base-color;
+		display:inline-block;
+		color:#fafafa;
+		padding: 0 0.5rem;
+	}
+}
+
 main.container.wave{
 
     background-image: url('/assets/css/tsunami-bg.png');

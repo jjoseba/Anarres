@@ -23,8 +23,6 @@ email: your-email@example.com
 description: \>_  apps & web development
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 main_color: 2c7761
 
 collections_dir: portfolio
@@ -48,12 +46,17 @@ collections:
 links:
   repo: https://github.com/jjoseba/
 
+#pagination
+paginate: 5
+paginate_path: "/blog/:num"
+permalink: "/blog/:year/:month/:day/:title"
+
 # Build settings
 include: ['.htaccess']
 plugins:
   - jekyll-feed
-  - jekyll-postfiles
-
+  - jekyll-paginate
+  - jekyll-postfiles 
 
 # Exclude from processing.
 # The following items will not be processed, by default.

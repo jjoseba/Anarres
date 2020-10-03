@@ -1,0 +1,25 @@
+---
+layout: blog
+permalink: /cat/
+parent_page: /blog
+title: Blog > Categorías
+---
+
+
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group" style="padding-bottom: 5%">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h3 class="category-head" style="padding-bottom: 1.5%">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4 style="color: rgb(153,153,153)">{{ post.date | date: "%B %-d, %Y" }}: <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
