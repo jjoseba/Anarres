@@ -7,8 +7,9 @@ categories: linux
 
 Durante el confinamiento, desde [Agua de Mayo](https://asociacionaguademayo.org/) creamos un grupo de apoyo vecinal/red de cuidados para ayudar a familias del barrio que puediesen encontrarse en situación de desamparo. Entre las distintas necesidades que identificamos, una de ellas fue la falta de ordenadores en algunas familias de cara a la vuelta al curso escolar y la posibilidad de que las clases empezasen con una modalidad online. Organizamos una recogida de ordenadores de segunda mano, con la idea de recuperarlos instalándoles un Linux y todas las herramientas de ofimática, internet y demás que pudiesen hacer falta para su uso en la escuela. 
 
-La respuesta original (mucho más extensa, en inglés) la encontré en los [foros de AskUbuntu] 
-(http://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers), traduzco aquí para tenerlo localizado para futuro y por si puede venirle bien a alguien que se maneje regular con el idioma de Chéspir.
+La respuesta original (mucho más extensa, en inglés) la encontré en los [foros de AskUbuntu](http://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers), traduzco aquí para tenerlo localizado para futuro y por si puede venirle bien a alguien que se maneje regular con el idioma de Chéspir.
+
+<!--more-->
 
 Sin más dilación, estos son los pasos a seguir:
 
@@ -94,7 +95,7 @@ Ahora, utilizando el PCI.ID que encontramos antes, tenemos que buscarlo en la li
 
 >  **Importante** - Si habías intentado instalar manualmente los drivers por otros medios alternativos, es necesario revertir cualquiera de esos cambios para evitar posibles conflictos, incluyendo ficheros de configuración modificados o paquetes de drivers instalados a través de `apt-get` u otro gestor de paquetes.
 
-Vale, ahora simplemente necesitamos intalar el paquete. En el caso de que tengamos la posibilidad de conectar un cable ethernet al ordenador, el proceso será sencillo, ya que podemos utilizar el gestor de paquetes para descargarlo de forma online como haríamos normalmente:
+Vale, ahora simplemente necesitamos instalar el paquete. En el caso de que tengamos la posibilidad de conectar un cable ethernet al ordenador, el proceso será sencillo, ya que podemos utilizar el gestor de paquetes para descargarlo de forma online como haríamos normalmente:
 
     sudo apt install firmware-b43-installer
     sudo apt install linux-firmware
@@ -109,7 +110,7 @@ En algunos casos excepcionales, si después de instalar el paquete `firmware-b43
      sudo modprobe b43    
      sudo rfkill unblock all  
 
-En el caso de no disponer de la opción de conectar el ordenador a internet usando un cable ethernet, la cosa se complica un poco, haciendo falta un nivel un poco mayor del básico de administración de Linux:
+En el caso de no disponer de la opción de conectar el ordenador a internet usando un cable ethernet la cosa se complica un poco, haciendo falta un nivel un poco mayor del básico de administración de Linux:
 
 * Para el paquete `firmware-b43-installer` ver [esta respuesta](https://askubuntu.com/a/730813/167850).
 * Para `bcmwl-kernel-source`, hay que seguir [este proceso](https://askubuntu.com/questions/626642/how-to-install-broadcom-wireless-drivers-offline/626653#626653) (aviso, un poco farragoso).

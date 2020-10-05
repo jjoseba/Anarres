@@ -20,9 +20,11 @@ layout: default
 	    {% endif %}
 
 	    <div class="mtop">
-	    	{{ post.content }}
+	    	{{ post.excerpt }}
+
+	    	<a class="btn mbottom" href="{{ post.url }}">seguir leyendo</a>
 	    </div>
-	    <small class="post-date " style="color: #999;"><a href="{{ post.url }}">#</a> •   
+	    <small class="post-date" style="color: #999;"><a href="{{ post.url }}">\blog\>_ {{post.slug}}</a> •   
 	    {% if post %}
 			  {% assign categories = post.categories %}
 			{% else %}
