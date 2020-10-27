@@ -114,7 +114,6 @@ article.work{
 }
 
 
-
 /** flip card styles **/
 .projects article {
   transition: all 0.2s;
@@ -142,7 +141,6 @@ article.work{
 #games article .hover{ background: rgba(249, 119, 99,0.5); }
 #art article .hover{ background: rgba(228, 55, 154,0.5); }
 #contact article .hover{ background: rgba(77, 41, 112,0.5); }
-
 
 #projects article .more{ background: rgba(81, 230, 166,0.85); }
 #random article .more{ background: rgba(238, 222, 106,0.85); }
@@ -174,13 +172,6 @@ article.work{
 	transition: 500ms all;
 	transition-delay: 200ms;
 }
-.projects article .more .links a:nth-child(2){ transition-delay: 260ms; }
-.projects article .more .links a:nth-child(3){ transition-delay: 320ms; }
-.projects article .more .links a:nth-child(4){ transition-delay: 380ms; }
-.projects article .more .links a:nth-child(5){ transition-delay: 440ms; }
-.projects article .more .links a:hover{
-	color: #000;
-}
 
 @media (max-width: 768px){
 	.projects article .more .links a{
@@ -202,4 +193,60 @@ article.work{
 }
 .projects article.flipped .hover{
 	opacity: 0;
+}
+
+
+.tags{
+	margin-top:-0.8rem;
+	margin-bottom:1rem;
+	a{
+		display:inline-block;
+		background-color: $light-color;
+		border-radius:2px;
+		padding:3px 12px;
+		padding-left:15px;
+		font-size:0.75rem;
+		border-top-left-radius:7px;
+		border-bottom-left-radius:7px;
+		color:#fff;
+		
+	}
+}
+
+.gallery-container{
+	background-color:#f6f6f6;
+	background-image:url('circuit-bg.png');
+	background-repeat:repeat-y;
+	background-position:center right;
+	max-width:100%;
+	@media (min-width: 49rem){
+		margin: auto -4rem;
+	}
+	margin-top:-2rem !important;
+
+	h3{
+		margin:0;
+		background-color:$base-color;
+		color:#fff;
+		padding:1rem 2rem;
+
+	}
+	.image-gallery{
+		padding:2rem;
+		padding-right:3rem;
+	}
+}
+
+.masonry{
+	.tile{
+		width:30%;
+		padding:1%;
+
+		@media (max-width: 49rem){
+			width:46%;
+			padding:1%;
+		}
+
+	}
+
 }

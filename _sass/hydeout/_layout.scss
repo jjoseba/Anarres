@@ -36,7 +36,7 @@ body {
 
 #sidebar {
   flex: 0 0 auto;
-  padding: $section-spacing;
+  padding: 1.5rem;
 
   .site-title {
     font-family: "Abril Fatface", serif;
@@ -154,6 +154,8 @@ body {
   }
 
   #sidebar {
+    padding: $section-spacing;
+
     .site-title {
       font-size: 3.25rem;
       .back-arrow { display: none; }

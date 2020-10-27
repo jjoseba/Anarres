@@ -1,1 +1,27 @@
 
+.sidebar-logo{
+	margin:auto;
+	max-width:180px;
+	width:initial;
+	width:100%;
+}
+
+.topbar-logo{
+	width:100%;
+	max-width:290px;
+	margin:auto;
+	margin-bottom: 1rem;
+}
+
+.sidebar-display { display:none; }
+
+@media (min-width: $large-breakpoint) {
+	
+	.sidebar-display { display:inherit; }
+	.sidebar-hidden{ display:none; }
+
+	.index #sidebar {
+	    padding-bottom: $section-spacing;
+	}
+
+}
