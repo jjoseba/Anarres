@@ -1,0 +1,13 @@
+footer{
+	padding:$section-spacing;
+	background-color: $gray-2;
+	color: #111;
+
+	nav > a.icon {
+	  background:none;
+	  text-decoration:none;
+	  font-size: 2rem;
+	  display: inline-block;
+	  margin: 0 0.15em;
+	}
+}
