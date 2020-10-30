@@ -1,5 +1,6 @@
 <div class="work-list">
 	{% for work in include.category %}
+	{% if work.portfolio_hidden == null %}
 	<article class="work">
 	  <img src="/{{ work.path | remove_first:'_'| remove_first:'index.md' }}preview.jpg" alt="{{ work.title }}">
 	    <div class="description">
@@ -9,5 +10,6 @@
 	    </div>
 	    <a class="hover" href="{{work.url}}"></a>
 	</article>
+	{% endif %}
 	{% endfor %}
 </div>

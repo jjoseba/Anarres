@@ -1,0 +1,20 @@
+---
+parent_page: /
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+  
+  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+  	 {% include sidebar.html %}
+    <main class="container {% if page.show_wave %} wave{% endif %}">
+    	<div class="content">
+      {{ content }}
+  </div>
+    </main>
+
+    {% include custom-foot.html %}
+  </body>
+</html>
