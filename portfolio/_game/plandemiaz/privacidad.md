@@ -2,6 +2,7 @@
 permalink: /privacidad/plandemiaz/
 layout: external
 show_wave: true
+portfolio_hidden: true
 ---
 
 # Plandemia Z
