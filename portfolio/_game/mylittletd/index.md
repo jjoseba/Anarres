@@ -3,6 +3,7 @@ layout: work
 title: My little TD
 permalink: /portfolio/mylittletd/
 gallery_folder: /portfolio/mylittletd/
+portfolio_hidden: true
 tags: [iOS, android, juego, modelado 3D, diseño]
 description: |
     Tower defense para móviles con mecánicas intensas, unos gráficos coloridos y dibujados a mano y un diseño de niveles hecho con mucho cariño.
