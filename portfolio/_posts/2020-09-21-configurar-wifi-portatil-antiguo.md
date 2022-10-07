@@ -5,7 +5,7 @@ date:   2020-09-21 14:00:00 +0100
 categories: linux 
 ---
 
-Durante el confinamiento, desde [Agua de Mayo](https://asociacionaguademayo.org/) creamos un grupo de apoyo vecinal/red de cuidados para ayudar a familias del barrio que puediesen encontrarse en situación de desamparo. Entre las distintas necesidades que identificamos, una de ellas fue la falta de ordenadores en algunas familias de cara a la vuelta al curso escolar y la posibilidad de que las clases empezasen con una modalidad online. Organizamos una recogida de ordenadores de segunda mano, con la idea de recuperarlos instalándoles un Linux y todas las herramientas de ofimática, internet y demás que pudiesen hacer falta para su uso en la escuela. 
+Durante el confinamiento, desde [Agua de Mayo](https://asociacionaguademayo.org/) creamos un grupo de apoyo vecinal/red de cuidados para ayudar a familias del barrio que pudiesen encontrarse en situación de desamparo. Entre las distintas necesidades que identificamos, una de ellas fue la falta de ordenadores en algunas familias de cara a la vuelta al curso escolar y la posibilidad de que las clases empezasen con una modalidad online. Organizamos una recogida de ordenadores de segunda mano, con la idea de recuperarlos instalándoles un Linux y todas las herramientas de ofimática, internet y demás que pudiesen hacer falta para su uso en la escuela. 
 
 La respuesta original (mucho más extensa, en inglés) la encontré en los [foros de AskUbuntu](http://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers), traduzco aquí para tenerlo localizado para futuro y por si puede venirle bien a alguien que se maneje regular con el idioma de Chéspir.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  Enseñar el corazón (Balance social)
 date:   2020-11-06 14:00:00 +0100
-categories: linux 
+categories: economía social 
 ---
 
 Las redes de la Economía Social y Solidaria que conforman REAS y los diferentes Mercados Sociales del Estado español realizan anualmente una auditoría social para evaluar el compromiso con los criterios básicos de la ESS y mostrar su grado de cumplimiento a otras entidades, a consumidoras asociadas y al público en general. A través de esta herramienta, la Economía Solidaria analiza la aplicación de los principios que todas asumimos, ofrece resultados de forma transparente y muestra a la sociedad las mejoras que, desde el seno de nuestra actividad diaria, aportan REAS y Mercados Sociales a la transformación del modelo económico vigente. Por eso, decimos que, con el Balance Social, **la Economía Solidaria enseña el corazón**.
